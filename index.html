@@ -1,16 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Style sheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <div class="jumbotron header">
+        <h1 class="display-4">Day Planner</h1>
+        <p class="lead" id="currentTime"></p>
+        <p>A simple day planner, add text to each hour and save.</P>
+        <p>To clear contents click clear and refresh.</p>
+    </div>
+    <div class="container">
 
-    <script src="./assets/js/script.js"></script>
+        <div class="row" id="9am">
+            <div class="col-sm-2 hour">
+                <time datetime="09:00">09:00</time>
+            </div>
+            <textarea class="col-sm todo-text"></textarea>
+            <button type="button" class="save"><i class="fa fa-save" style="color:white"></i></button>
+        </div>
+
+        <div class="row" id="10am">
+            <div class="col-sm-2 hour">
+                <time datetime="10:00">10:00</time>
+            </div>
+            <textarea class="col-sm todo-text"></textarea>
+            <button type="button" class="save"><i class="fa fa-save" style="color:white"></i></button>
+        </div>
+
+
+        <div class="row" id="11am">
+            <div class="col-sm-2 hour">
+                <time datetime="11:00">11:00</time>
+            </div>
+            <textarea class="col-sm todo-text"></textarea>
+            <button type="button" class="save"><i class="fa fa-save" style="color:white"></i></button>
+        </div>
+
+        <div class="row" id="12am">
+            <div class="col-sm-2 hour">
+                <time datetime="12:00">12:00</time>
+            </div>
+            <textarea class="col-sm todo-text"></textarea>
+            <button type="button" class="save"><i class="fa fa-save" style="color:white"></i></button>
+        </div>
+
+        <div class="row" id="1pm">
+            <div class="col-sm-2 hour">
+                <time datetime="13:00">13:00</time>
+            </div>
+            <textarea class="col-sm todo-text"></textarea>
+            <button type="button" class="save"><i class="fa fa-save" style="color:white"></i></button>
+        </div>
+
+        <div class="row" id="2pm">
+            <div class="col-sm-2 hour">
+                <time datetime="14:00">14:00</time>
+            </div>
+            <textarea class="col-sm todo-text"></textarea>
+            <button type="button" class="save"><i class="fa fa-save" style="color:white"></i></button>
+        </div>
+
+        <div class="row" id="3pm">
+            <div class="col-sm-2 hour">
+                <time datetime="15:00">15:00</time>
+            </div>
+            <textarea class="col-sm todo-text"></textarea>
+            <button type="button" class="save"><i class="fa fa-save" style="color:white"></i></button>
+        </div>
+
+        <div class="row" id="4pm">
+            <div class="col-sm-2 hour">
+                <time datetime="16:00">16:00</time>
+            </div>
+            <textarea class="col-sm todo-text"></textarea>
+            <button type="button" class="save"><i class="fa fa-save" style="color:white"></i></button>
+        </div>
+
+        <div class="row" id="5pm">
+            <div class="col-sm-2 hour">
+                <time datetime="17:00">17:00</time>
+            </div>
+            <textarea class="col-sm todo-text"></textarea>
+            <button type="button" class="save"><i class="fa fa-save" style="color:white"></i></button>
+        </div>
+
+    </div>
+    <div class="row">
+        <button type="button" class="clear">Clear</button>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/moment.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
 
 </body>
 
