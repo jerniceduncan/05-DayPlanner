@@ -1,0 +1,80 @@
+/* create 3 classes
+past present future */
+
+
+/* Dynamic styles 1 Planner style - future time - green 2 Planner style - current time - red 3) Planner style - past time - grey All require the same basic styling,
+but change colours and font weights Javascript will apply the styles dynamically General Styles 1) times (column 1) 2) apointment field (column 2) 3) save button (column 3) 4) Clear button 5) Bootstrap overirde styles */
+
+
+/* General Styles */
+
+.hour {
+    font-weight: bold;
+    border-style: groove;
+    border-width: 0px 0px 0px 0px;
+}
+
+.header {
+    text-align: center;
+    border-style: solid;
+    border: 0, 0, 5px, 0;
+}
+
+body {
+    background-image: url("Assets/topography.png");
+}
+
+button {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 10%;
+    border-radius: 10%;
+    border: 0;
+    padding: 0;
+}
+
+.col-sm-2 {
+    padding: 0 0 0 0;
+}
+
+.col-sm {
+    padding: 0 0 0 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.todo-text {
+    background-color: transparent;
+    border: 0;
+}
+
+.clear {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Dynamic styles, to be applied by Javascript */
+
+.future {
+    border-style: groove;
+    border-width: 2px 0px 2px 0px;
+    background-color: rgb(255, 0, 179 179);
+}
+
+.current {
+    border-style: groove;
+    border-width: 2px 0px 2px 0px;
+    background-color: rgb(202, 199, 23);
+}
+
+.past {
+    border-style: groove;
+    border-width: 2px 0px 2px 0px;
+    background-color: rgb(8, 77, 168);
+}
