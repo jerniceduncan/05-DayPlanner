@@ -64,7 +64,7 @@ button {
 .future {
     border-style: groove;
     border-width: 2px 0px 2px 0px;
-    background-color: rgb(255, 0, 179 179);
+    background-color: green;
 }
 
 .current {
