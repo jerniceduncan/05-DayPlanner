@@ -16,8 +16,10 @@ but change colours and font weights Javascript will apply the styles dynamically
 
 .header {
     text-align: center;
+    font-weight: bold;
     border-style: solid;
     border: 0, 0, 5px, 0;
+    background-color: lightgreen
 }
 
 body {
